@@ -60,7 +60,7 @@ function getMessages(){
 
 function viewMessage(element){
     let msgsArea = document.querySelector(".msgsArea")
-
+    //msgsArea.innerHTML = " ";
     for(let i = 0 ; i < element.data.length ; i++){
 
         switch(element.data[i].type){
